@@ -6,16 +6,16 @@
   },
   "options": {},
   "attributes": {
-    "stats": {
-      "type": "component",
-      "repeatable": true,
-      "component": "basic.double-text"
-    },
     "title": {
       "type": "string"
     },
     "text": {
       "type": "text"
+    },
+    "stats": {
+      "type": "component",
+      "component": "basic.double-text",
+      "repeatable": true
     },
     "linkText": {
       "type": "string"

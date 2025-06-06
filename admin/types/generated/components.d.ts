@@ -151,7 +151,13 @@ export interface CustomImageContent extends Struct.ComponentSchema {
     displayName: 'Image Content';
   };
   attributes: {
-    buttons: Schema.Attribute.Component<'basic.button', true>;
+    buttons: Schema.Attribute.Component<'basic.button', true> &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 2;
+        },
+        number
+      >;
     imageDesktop: Schema.Attribute.Media<'images'>;
     imageMobile: Schema.Attribute.Media<'images'>;
     imagePosition: Schema.Attribute.Enumeration<['right', 'left']> &

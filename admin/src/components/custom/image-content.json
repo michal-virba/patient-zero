@@ -10,43 +10,44 @@
     },
     "richtext": {
       "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
       "options": {
         "preset": "defaultHtml"
-      },
-      "customField": "plugin::ckeditor5.CKEditor"
+      }
     },
     "links": {
       "type": "component",
-      "repeatable": true,
-      "component": "basic.link"
+      "component": "basic.link",
+      "repeatable": true
     },
     "buttons": {
       "type": "component",
+      "component": "basic.button",
       "repeatable": true,
-      "component": "basic.button"
+      "max": 2
     },
     "imageMobile": {
+      "type": "media",
+      "multiple": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "imageDesktop": {
+      "type": "media",
+      "multiple": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "imagePosition": {
       "type": "enumeration",
+      "required": true,
+      "default": "right",
       "enum": [
         "right",
         "left"
-      ],
-      "default": "right",
-      "required": true
+      ]
     }
   }
 }
