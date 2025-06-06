@@ -1,0 +1,67 @@
+# ===================================================================
+# 1. VŠEOBECNÉ PRAVIDLÁ (IDE, OS, lokálne tajomstvá)
+# ===================================================================
+
+# Nastavenia pre JetBrains IDE (IntelliJ, WebStorm, atď.)
+.idea/
+
+# Nastavenia pre Visual Studio Code
+.vscode/
+
+# Súbory operačného systému
+.DS_Store
+Thumbs.db
+
+# Log súbory
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lokálne konfiguračné súbory s heslami a kľúčmi (NIKDY ICH NEDÁVAJTE DO GITU!)
+# Namiesto toho vytvorte súbor .env.example s prázdnymi premennými a ten commitnite.
+.env
+.env.local
+.env.*.local
+
+
+# ===================================================================
+# 2. BACKEND: Strapi 5 (v zložke /admin)
+# ===================================================================
+
+# Závislosti Node.js
+/admin/node_modules/
+
+# Produkčný build Strapi administrácie
+/admin/build/
+
+# Dočasné súbory a cache
+/admin/.cache/
+/admin/.strapi/
+
+# Dočasná databáza (napr. defaultná SQLite pre lokálny vývoj)
+# Produkčná databáza by mala byť spravovaná mimo Gitu!
+/admin/.tmp/
+
+# Nahrané súbory od používateľov (obrázky, videá, dokumenty)
+# Tieto súbory by mali byť v produkcii uložené na externom úložisku (napr. AWS S3, Cloudinary).
+/admin/public/uploads/
+
+
+# ===================================================================
+# 3. FRONTEND: React.js (v zložke /frontend)
+# ===================================================================
+
+# Závislosti Node.js
+/frontend/node_modules/
+
+# Produkčný build aplikácie (vytvorený príkazom `npm run build`)
+# Názov môže byť 'build' (Create React App) alebo 'dist' (Vite)
+/frontend/build/
+/frontend/dist/
+
+# Cache pre Vite development server
+/frontend/.vite/
+
+# Reporty z testov
+/frontend/coverage/
