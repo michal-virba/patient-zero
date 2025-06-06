@@ -16,21 +16,21 @@
   },
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^6.0.1",
-    "@strapi/plugin-cloud": "5.12.4",
+    "@strapi/plugin-cloud": "5.15.0",
     "@strapi/plugin-seo": "^2.0.8",
-    "@strapi/plugin-users-permissions": "5.12.4",
-    "@strapi/strapi": "5.12.4",
+    "@strapi/plugin-users-permissions": "5.15.0",
+    "@strapi/strapi": "5.15.0",
     "@yunusemrejs/drag-drop-content-types-strapi5": "^1.0.11",
-    "better-sqlite3": "11.3.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0",
+    "better-sqlite3": "11.10.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/node": "^22.15.30",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6",
     "typescript": "^5"
   },
   "engines": {
