@@ -4,44 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b377381-e6ba-4731-9920-a7cdf2f900c0" name="Changes" comment="homepage single type">
-      <change afterPath="$PROJECT_DIR$/frontend/.eslintrc.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/vite-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
+    <list default="true" id="2b377381-e6ba-4731-9920-a7cdf2f900c0" name="Changes" comment="removed next added react only">
+      <change afterPath="$PROJECT_DIR$/admin/src/api/footer/content-types/footer/schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api/footer/controllers/footer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api/footer/routes/footer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api/footer/services/footer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api/page/content-types/page/schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api/page/controllers/page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api/page/routes/page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api/page/services/page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/basic/button.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/basic/image.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/basic/link.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/basic/picture.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/basic/richtext.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/basic/text.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/custom/image-content.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/shared/open-graph.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/shared/seo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.prettierrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/eslint.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/next.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/postcss.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/config/plugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config/plugins.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/api/homepage/content-types/homepage/schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api/homepage/content-types/homepage/schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/types/generated/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/admin/types/generated/components.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/types/generated/contentTypes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/admin/types/generated/contentTypes.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/admin/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +51,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feat/homepage-single-type" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,9 +80,9 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feat/backend-updates",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Projects/strapi-next/web",
+    "last_opened_file_path": "C:/Projects/strapi-next/admin/src/api/footer",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
@@ -108,14 +96,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\strapi-next\admin\src\api\footer" />
       <recent name="C:\Projects\strapi-next\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\strapi-next\admin\src\api\footer" />
       <recent name="C:\Projects\strapi-next\frontend\src" />
       <recent name="C:\Projects\strapi-next\frontend" />
       <recent name="C:\Projects\strapi-next\frontend\public" />
       <recent name="C:\Projects\strapi-next\admin" />
-      <recent name="C:\Projects\strapi-next\web" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -140,6 +129,7 @@
       <workItem from="1744412149496" duration="547000" />
       <workItem from="1744451382337" duration="38000" />
       <workItem from="1749157551917" duration="4500000" />
+      <workItem from="1749227227975" duration="9825000" />
     </task>
     <task id="LOCAL-00001" summary="next.js init">
       <option name="closed" value="true" />
@@ -179,6 +169,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="next.js init" />
     <MESSAGE value="strapi v5 init" />
-    <option name="LAST_COMMIT_MESSAGE" value="strapi v5 init" />
+    <MESSAGE value="removed next added react only" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed next added react only" />
   </component>
 </project>

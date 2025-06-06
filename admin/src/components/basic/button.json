@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_basic_buttons",
+  "info": {
+    "displayName": "Button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "filled",
+        "transparent"
+      ],
+      "default": "filled"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "medium",
+        "large",
+        "small-medium",
+        "small-large",
+        "medium-large"
+      ],
+      "default": "small"
+    },
+    "mode": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "full-width",
+        "mobile-full-width"
+      ],
+      "default": "default"
+    }
+  }
+}
