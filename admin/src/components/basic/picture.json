@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_basic_pictures",
+  "info": {
+    "displayName": "Picture"
+  },
+  "options": {},
+  "attributes": {
+    "imgMobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imgDesktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}
