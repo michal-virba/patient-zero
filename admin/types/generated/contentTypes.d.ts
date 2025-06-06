@@ -432,6 +432,7 @@ export interface ApiFooterFooter extends Struct.SingleTypeSchema {
 export interface ApiHeaderHeader extends Struct.SingleTypeSchema {
   collectionName: 'headers';
   info: {
+    description: '';
     displayName: 'Header';
     pluralName: 'headers';
     singularName: 'header';
@@ -452,6 +453,7 @@ export interface ApiHeaderHeader extends Struct.SingleTypeSchema {
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::header.header'>;
     logo: Schema.Attribute.Media<'images'>;
     publishedAt: Schema.Attribute.DateTime;
+    uniqueH1: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -478,7 +480,6 @@ export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    dynamiczone: Schema.Attribute.DynamicZone<['basic.richtext']>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -489,6 +490,14 @@ export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    zone: Schema.Attribute.DynamicZone<
+      [
+        'custom.image-content',
+        'custom.gallery',
+        'custom.statistics',
+        'custom.hero-slider',
+      ]
+    >;
   };
 }
 
@@ -512,7 +521,6 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    dynamiczone: Schema.Attribute.DynamicZone<['basic.richtext']>;
     inMenu: Schema.Attribute.Enumeration<['none', 'primary', 'secondary']> &
       Schema.Attribute.DefaultTo<'none'>;
     locale: Schema.Attribute.String;
@@ -525,6 +533,14 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    zone: Schema.Attribute.DynamicZone<
+      [
+        'custom.image-content',
+        'custom.gallery',
+        'custom.statistics',
+        'custom.hero-banner',
+      ]
+    >;
   };
 }
 

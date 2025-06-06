@@ -16,10 +16,13 @@
     }
   },
   "attributes": {
-    "dynamiczone": {
+    "zone": {
       "type": "dynamiczone",
       "components": [
-        "basic.richtext"
+        "custom.image-content",
+        "custom.gallery",
+        "custom.statistics",
+        "custom.hero-slider"
       ]
     },
     "seo": {

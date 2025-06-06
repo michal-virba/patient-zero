@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_basic_double_texts",
+  "info": {
+    "displayName": "Double text"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

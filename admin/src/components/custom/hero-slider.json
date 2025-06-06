@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_custom_hero_sliders",
+  "info": {
+    "displayName": "Hero slider"
+  },
+  "options": {},
+  "attributes": {
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.hero-banner"
+    }
+  }
+}
