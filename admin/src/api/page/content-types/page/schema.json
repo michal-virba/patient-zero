@@ -37,10 +37,13 @@
     "rank": {
       "type": "integer"
     },
-    "dynamiczone": {
+    "zone": {
       "type": "dynamiczone",
       "components": [
-        "basic.richtext"
+        "custom.image-content",
+        "custom.gallery",
+        "custom.statistics",
+        "custom.hero-banner"
       ]
     },
     "seo": {

@@ -29,6 +29,17 @@ export interface BasicButton extends Struct.ComponentSchema {
   };
 }
 
+export interface BasicDoubleText extends Struct.ComponentSchema {
+  collectionName: 'components_basic_double_texts';
+  info: {
+    displayName: 'Double text';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    value: Schema.Attribute.String;
+  };
+}
+
 export interface BasicImage extends Struct.ComponentSchema {
   collectionName: 'components_basic_images';
   info: {
@@ -103,6 +114,37 @@ export interface CustomGallery extends Struct.ComponentSchema {
   };
 }
 
+export interface CustomHeroBanner extends Struct.ComponentSchema {
+  collectionName: 'components_custom_hero_banners';
+  info: {
+    description: '';
+    displayName: 'Hero banner';
+  };
+  attributes: {
+    buttons: Schema.Attribute.Component<'basic.button', true> &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 2;
+        },
+        number
+      >;
+    imageDesktop: Schema.Attribute.Media<'images'>;
+    imageMobile: Schema.Attribute.Media<'images', true>;
+    text: Schema.Attribute.Text;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CustomHeroSlider extends Struct.ComponentSchema {
+  collectionName: 'components_custom_hero_sliders';
+  info: {
+    displayName: 'Hero slider';
+  };
+  attributes: {
+    slides: Schema.Attribute.Component<'custom.hero-banner', true>;
+  };
+}
+
 export interface CustomImageContent extends Struct.ComponentSchema {
   collectionName: 'components_custom_image_contents';
   info: {
@@ -123,6 +165,21 @@ export interface CustomImageContent extends Struct.ComponentSchema {
           preset: 'defaultHtml';
         }
       >;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CustomStatistics extends Struct.ComponentSchema {
+  collectionName: 'components_custom_statistics';
+  info: {
+    description: '';
+    displayName: 'Statistics';
+  };
+  attributes: {
+    link: Schema.Attribute.String;
+    linkText: Schema.Attribute.String;
+    stats: Schema.Attribute.Component<'basic.double-text', true>;
+    text: Schema.Attribute.Text;
     title: Schema.Attribute.String;
   };
 }
@@ -182,13 +239,17 @@ declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'basic.button': BasicButton;
+      'basic.double-text': BasicDoubleText;
       'basic.image': BasicImage;
       'basic.link': BasicLink;
       'basic.picture': BasicPicture;
       'basic.richtext': BasicRichtext;
       'basic.text': BasicText;
       'custom.gallery': CustomGallery;
+      'custom.hero-banner': CustomHeroBanner;
+      'custom.hero-slider': CustomHeroSlider;
       'custom.image-content': CustomImageContent;
+      'custom.statistics': CustomStatistics;
       'shared.open-graph': SharedOpenGraph;
       'shared.seo': SharedSeo;
     }

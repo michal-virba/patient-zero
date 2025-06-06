@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_custom_statistics",
+  "info": {
+    "displayName": "Statistics",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.double-text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "linkText": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

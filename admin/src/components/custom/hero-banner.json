@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_custom_hero_banners",
+  "info": {
+    "displayName": "Hero banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.button",
+      "max": 2
+    },
+    "imageMobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "imageDesktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
