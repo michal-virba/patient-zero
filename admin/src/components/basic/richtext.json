@@ -5,12 +5,8 @@
   },
   "options": {},
   "attributes": {
-    "richtext": {
-      "type": "customField",
-      "options": {
-        "preset": "defaultHtml"
-      },
-      "customField": "plugin::ckeditor5.CKEditor"
+    "textblocks": {
+      "type": "blocks"
     }
   }
 }

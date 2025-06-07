@@ -82,13 +82,7 @@ export interface BasicRichtext extends Struct.ComponentSchema {
     displayName: 'Richtext';
   };
   attributes: {
-    richtext: Schema.Attribute.RichText &
-      Schema.Attribute.CustomField<
-        'plugin::ckeditor5.CKEditor',
-        {
-          preset: 'defaultHtml';
-        }
-      >;
+    textblocks: Schema.Attribute.Blocks;
   };
 }
 
@@ -164,13 +158,7 @@ export interface CustomImageContent extends Struct.ComponentSchema {
       Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<'right'>;
     links: Schema.Attribute.Component<'basic.link', true>;
-    richtext: Schema.Attribute.RichText &
-      Schema.Attribute.CustomField<
-        'plugin::ckeditor5.CKEditor',
-        {
-          preset: 'defaultHtml';
-        }
-      >;
+    textblocks: Schema.Attribute.Blocks;
     title: Schema.Attribute.String;
   };
 }
