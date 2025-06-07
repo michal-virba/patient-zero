@@ -18,43 +18,44 @@
   "attributes": {
     "logo": {
       "type": "media",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "multiple": false,
       "required": false,
       "allowedTypes": [
         "images"
-      ],
+      ]
+    },
+    "textblocks": {
+      "type": "blocks",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
-    },
-    "text": {
-      "type": "customField",
-      "options": {
-        "preset": "defaultHtml"
-      },
-      "customField": "plugin::ckeditor5.CKEditor"
     },
     "socials": {
       "type": "component",
-      "repeatable": true,
-      "component": "basic.link",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "basic.link",
+      "repeatable": true
     },
     "contacts": {
       "type": "component",
-      "repeatable": true,
-      "component": "basic.link",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "basic.link",
+      "repeatable": true
     },
     "copyrights": {
       "type": "text",
